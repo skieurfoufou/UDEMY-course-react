@@ -1,0 +1,25 @@
+:root {
+  --violet: #c61ad3;
+  --violet-fonce: #ae0eed;
+}
+
+.form {
+  text-align: right;
+}
+
+.form button {
+  font: inherit;
+  cursor: pointer;
+  background-color: var(--violet);
+  border: 1px solid var(--violet);
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.form button:hover,
+.form button:active {
+  background-color: var(--violet-fonce);
+  border-color: var(--violet-fonce);
+}
